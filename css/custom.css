@@ -6,8 +6,8 @@ body {
 
 /* nav */
 .navbar {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 .bg-dark {
     background-color: #262627!important;
@@ -51,12 +51,16 @@ body {
 } 
 .header {
     width: 100%;
-    height: 470px;
+    height: 480px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 .header-title {
+    margin-top: 130px; 
+    font-size: 3.5rem;
+    letter-spacing: 5px; 
+    word-spacing: 10px; 
     color: white;
 }
 /* header end */
@@ -263,12 +267,6 @@ body {
 /* home page end */
 
 /* venues page, spa center page */
-.venues-title, .spa-center-title, .events-title {
-    margin-top: 130px; 
-    font-size: 4rem;
-    letter-spacing: 5px; 
-    word-spacing: 10px; 
-}
 .venues1, .spa-center1 {
     margin-top: 50px; 
     margin-bottom: 50px;
@@ -412,12 +410,6 @@ body {
 /* events page end */
 
 /* offers page */
-.offers-title {
-    margin-top: 160px;
-    font-size: 3rem; 
-    letter-spacing: 5px; 
-    word-spacing: 10px; 
-}
 .offers1-container, .offers2-container {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -452,12 +444,6 @@ body {
 /* offers page end */
 
 /* contact page */
-.contact-title {
-    margin-top: 150px; 
-    font-size: 3rem;
-    letter-spacing: 5px; 
-    word-spacing: 10px; 
-}
 .location {
     margin-top: 20px; 
     font-size: 18px;
