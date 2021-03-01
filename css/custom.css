@@ -487,18 +487,61 @@ body {
     border-top: 2px solid white;
     width: 40%;
 }
-.jumbo-light {
+.contact-info .jumbo-light, .form-contact .jumbo-light {
     background-color: white;
     color: #dc3545;
 }
-.jumbo-light h2 {
+.contact-info .jumbo-light h2 {
     margin-bottom: 20px;
 }
-.jumbo-light h5 {
+.contact-info .jumbo-light h5 {
     margin-bottom: 35px;
 }
-.jumbo-light .col {
+.contact-info .jumbo-light .col {
     padding: 2px;
+}
+.form-contact .jumbo-light {
+    padding: 1rem;
+}
+.form-contact .jumbotron {
+    border: 2px solid #dc3545;
+}
+.form-contact h1 {
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+.form-contact .form-control {
+    color: #dc3545;
+    border: 2px solid #dc3545; 
+}
+.form-contact .form-control::-webkit-input-placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+.form-contact .form-control::-moz-placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+.form-contact .form-control:-ms-input-placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+.form-contact .form-control::-ms-input-placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+.form-contact .form-control::placeholder {
+  color: #dc3545;
+  opacity: 1;
+}
+.form-contact .btn-danger {
+    margin-top: 0;
+    padding-right: 40px; 
+    padding-left: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: #dc3545; 
+    border: 1px solid #dc3545;  
 }
 .maps {
     margin-bottom: 30px;
@@ -529,6 +572,10 @@ body {
     padding-left: 20px;
     background: darkred;
     border: 1px solid darkred;
+}
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
 }
 .footer-p {
       padding: 10px;
