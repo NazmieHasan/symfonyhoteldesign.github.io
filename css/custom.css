@@ -487,9 +487,13 @@ body {
     border-top: 2px solid white;
     width: 40%;
 }
-.contact-info .jumbo-light, .form-contact .jumbo-light {
+.contact-info .jumbo-light {
     background-color: white;
-    color: #dc3545;
+    color:#dc3545;
+}
+.form-contact .jumbo-light {
+    background-color: #dc3545;
+    color: white;
 }
 .contact-info .jumbo-light h2 {
     margin-bottom: 20px;
@@ -499,49 +503,6 @@ body {
 }
 .contact-info .jumbo-light .col {
     padding: 2px;
-}
-.form-contact .jumbo-light {
-    padding: 1rem;
-}
-.form-contact .jumbotron {
-    border: 2px solid #dc3545;
-}
-.form-contact h1 {
-    margin-bottom: 10px;
-    word-spacing: 10px;
-}
-.form-contact .form-control {
-    color: #dc3545;
-    border: 2px solid #dc3545; 
-}
-.form-contact .form-control::-webkit-input-placeholder {
-  color: #dc3545;
-  opacity: 1;
-}
-.form-contact .form-control::-moz-placeholder {
-  color: #dc3545;
-  opacity: 1;
-}
-.form-contact .form-control:-ms-input-placeholder {
-  color: #dc3545;
-  opacity: 1;
-}
-.form-contact .form-control::-ms-input-placeholder {
-  color: #dc3545;
-  opacity: 1;
-}
-.form-contact .form-control::placeholder {
-  color: #dc3545;
-  opacity: 1;
-}
-.form-contact .btn-danger {
-    margin-top: 0;
-    padding-right: 40px; 
-    padding-left: 40px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    background: #dc3545; 
-    border: 1px solid #dc3545;  
 }
 .maps {
     margin-bottom: 30px;
