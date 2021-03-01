@@ -49,15 +49,20 @@ body {
 .contact {
     background: url('../img/header-contact.jpg');
 } 
+.home-width {
+    height: 480px;
+}
+.venues-width, .spa-center-width, .events-width, .offers-width, .contact-width {
+    height: 560px;
+}
 .header {
     width: 100%;
-    height: 480px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .header-title {
-    margin-top: 130px; 
+    margin-top: 170px; 
     font-size: 3.5rem;
     letter-spacing: 5px; 
     word-spacing: 10px; 
