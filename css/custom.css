@@ -429,9 +429,11 @@ body {
     padding-left: 0;
 }
 .offers1-container .offers-info, .offers2-container .offers-info {
-    margin-top: 90px; 
-    padding: 20px;
+    margin-top: 80px; 
+    padding: 40px;
     background: white; 
+    border: 1px solid white;
+    border-radius: 2px;
 }
 .offers1-container a, .offers2-container a {
     text-decoration: underline; 
