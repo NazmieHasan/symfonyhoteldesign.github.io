@@ -491,10 +491,6 @@ body {
     background-color: white;
     color:#dc3545;
 }
-.form-contact .jumbo-light {
-    background-color: #dc3545;
-    color: white;
-}
 .contact-info .jumbo-light h2 {
     margin-bottom: 20px;
 }
@@ -503,6 +499,50 @@ body {
 }
 .contact-info .jumbo-light .col {
     padding: 2px;
+}
+.form-contact .jumbo-light {
+    margin-bottom: 30px; 
+    padding-top: 20px; 
+    padding-bottom: 5px; 
+    background: white;
+}
+.form-contact h2 {
+    margin-bottom: 20px;
+    color: #dc3545;  
+}
+.form-contact .col-md-12 {
+    margin-bottom: 18px;
+}
+.form-contact .form-control {
+     color: #dc3545;
+     border: 1px solid #dc3545;
+}
+.form-contact .form-control::-webkit-input-placeholder {
+    color: #dc3545;
+    opacity: 1;
+}
+.form-contact .form-control::-moz-placeholder {
+    color: #dc3545;
+    opacity: 1;
+}
+.form-contact .form-control:-ms-input-placeholder {
+    color: #dc3545;
+    opacity: 1;
+}
+.form-contact .form-control::-ms-input-placeholder {
+    color: #dc3545;
+    opacity: 1;
+}
+.form-contact .form-control::placeholder {
+    color: #dc3545;
+    opacity: 1;
+}
+.form-contact .btn-danger {
+    padding-right: 40px; 
+    padding-left: 40px; 
+    font-size: 18px; 
+    background: #dc3545; 
+    border: 1px solid #dc3545;
 }
 .maps {
     margin-bottom: 30px;
