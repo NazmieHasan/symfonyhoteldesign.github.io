@@ -418,6 +418,16 @@ body {
     padding-right: 0; 
     padding-left: 0;
 }
+.order-last {
+    margin-left: -40px; 
+    padding-right: 0; 
+    padding-left: 0;
+}
+.order-first {
+    margin-right: -40px; 
+    padding-right: 0; 
+    padding-left: 0;
+}
 .offers1-container .offers-info, .offers2-container .offers-info {
     margin-top: 90px; 
     padding: 20px;
