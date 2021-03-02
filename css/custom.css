@@ -272,30 +272,25 @@ body {
 /* home page end */
 
 /* venues page, spa center page */
-.venues1, .spa-center1 {
+.venue, .spa-center-zone {
     margin-top: 50px; 
     margin-bottom: 50px;
 }
-.venues1 .row, .venues2 .row, .spa-center1 .row, .spa-center2 .row {
+.venue .row, .spa-center-zone .row {
     margin-right: 0;
     margin-left: 0;
 }
 .venues-img, .spa-center-img {
-    margin-right: -40px; 
     padding-right: 0; 
     padding-left: 0;
 }
 .venues-text, .spa-center-text {
-    margin-left: -40px; 
     padding-right: 0; 
     padding-left: 0; 
 }
 .venues-info, .spa-center-info {
-    margin-top: 70px; 
-    margin-right: 5px;
     margin-bottom: 0;
-    margin-left: 5px;
-    padding: 20px;
+    padding: 90px 20px;
     background: white; 
 }
 .venues-info h3, .spa-center-info h3 {
@@ -315,19 +310,6 @@ body {
 }
 .venues-info h5, .spa-center-info h5 {
     margin-bottom: 0;
-}
-.venues2, .spa-center2 {
-    margin-bottom: 50px;
-}
-.order-last {
-    margin-left: -40px; 
-    padding-right: 0; 
-    padding-left: 0;
-}
-.order-first {
-    margin-right: -40px; 
-    padding-right: 0; 
-    padding-left: 0;
 }
 .cont-venues {
     background: url('../img/cont-venues.jpg');
