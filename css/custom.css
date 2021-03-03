@@ -495,7 +495,7 @@ body {
     padding: 2px;
 }
 .form-contact .jumbo-light {
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
     padding-top: 20px; 
     padding-bottom: 5px; 
     background: white;
@@ -537,6 +537,12 @@ body {
     font-size: 18px; 
     background: #dc3545; 
     border: 1px solid #dc3545;
+}
+.gps-coordinates {
+    margin-bottom: 40px;
+}
+.gps-coordinates h4 {
+    margin-top: 20px;
 }
 .maps {
     margin-bottom: 30px;
