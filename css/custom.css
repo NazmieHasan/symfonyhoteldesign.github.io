@@ -364,7 +364,7 @@ body {
 }
 .special-events {
     margin-top: 40px; 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .special-events h3 {
     margin-bottom: 20px;
@@ -401,12 +401,13 @@ body {
 }
 .gallery .col-md-6, .gallery .col-sm-12 {
     margin-bottom: 60px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .gallery h3 {
-    margin-bottom: 10px;
-}
-.gallery img {
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: white;
 }
 /* events page end */
 
