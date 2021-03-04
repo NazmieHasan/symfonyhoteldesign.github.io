@@ -219,7 +219,7 @@ body {
     font-size: 22px; 
     color: lightgray;
 }
-.custom-container {
+.custom-container-home {
     margin-top: 50px;
     margin-bottom: 60px;
     padding-right: 0;
@@ -347,9 +347,13 @@ body {
 /* venues page end, spa center page end */
 
 /* events page */
-.custom-col h2 {
+.custom-container-events {
     margin-top: 50px;
     margin-bottom: 40px;
+}
+.custom-col h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .col-events hr {
     margin: auto;
@@ -361,10 +365,6 @@ body {
     padding-right: 40px; 
     padding-bottom: 60px; 
     padding-left: 40px;
-}
-.special-events {
-    margin-top: 40px; 
-    margin-bottom: 60px;
 }
 .special-events h3 {
     margin-bottom: 20px;
@@ -404,11 +404,14 @@ body {
     padding-right: 5px;
     padding-left: 5px;
 }
+.gallery .title {
+    background: white;
+    padding-bottom: 20px;
+}
 .gallery h4 {
     margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;  
 }
 /* events page end */
 
