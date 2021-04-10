@@ -120,10 +120,10 @@ body {
     border-radius: 2px; 
 }
 .home-container {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .home-container h2 {
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
     text-align: center;
 }
 .col-home {
@@ -153,6 +153,7 @@ body {
     border-color: #dc3545;
 }
 .room-info .btn-danger {
+    margin-top: 40px;
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -254,7 +255,7 @@ body {
 }
 .custom-col p {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding-right: 40px;
     padding-left: 40px;
     font-size: 18px;
@@ -265,7 +266,6 @@ body {
     border-radius: 0;
 } 
 .btn-outline {
-    margin-top: 40px;
     color: darkred;
     border-color: darkred;
     background: white;
