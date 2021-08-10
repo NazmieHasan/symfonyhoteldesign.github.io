@@ -93,22 +93,22 @@ body {
     font-weight: bold; 
     word-spacing: 5px;
 }
-.search-room .form-group label {
+.search-room .form-group label,  .search-room .form-group input {
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-top: 2px;
     padding-right: 8px;
-    padding-bottom: 2px;
-    padding-left: 12px;
-    background: white;
+    padding-left: 8px;
     border: 1px solid #4f4f4f; 
     border-radius: 2px;  
 }
-.search-room .form-group .input-date {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-right: 6px;
-    padding-left: 10px;  
+.search-room .form-group label {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: white;  
+}
+.search-room .form-group input {
+    padding-top: 1px;
+    padding-bottom: 1px;  
 }
 .search-room .form-group .form-submit {
     margin-top: 5px;  
